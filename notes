@@ -1,0 +1,20 @@
+
+Entities:
+
+Todo
+  Name: String
+  Description: String
+  Completed: Bool
+
+----
+API:
+
+GET /todos/ -> return a list of todos
+
+POST /todo/ -> create a todo
+  Name: String
+  Description: String
+
+DELETE /todo/:id -> delete a todo
+
+POST /todo/:id/complete -> mark a todo as Completed
